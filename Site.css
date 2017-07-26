@@ -1,0 +1,61 @@
+﻿
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:darkgray;
+}
+
+.well{
+    background-color:gold;
+}
+
+a{
+    color:gold;
+}
+
+h1,
+h2,h3,h4,h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.alert-danger{
+    font-size: 12px;
+}
+
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.panel panel-default{
+    padding-left: 20px;
+    padding-right:20px;
+ 
+}
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+
+}
